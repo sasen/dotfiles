@@ -20,6 +20,7 @@ alias ipynb='ipython notebook --pylab=inline'
 alias exam='python ~/sasen/scripts/examineRun.py'
 
 #### places to go... local
+alias cddot='cd ~sasen/software/dotfiles/ba3/sasen/'
 alias cdmtbi='cd /mindhive/gablab/rtfmri/mTBI'
 alias cdmint='cd /mindhive/gablab/rtfmri/fouse'
 alias cdgate='cd /mindhive/gablab/GATES/'

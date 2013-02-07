@@ -20,8 +20,10 @@ alias ipynb='ipython notebook --pylab=inline'
 alias exam='python ~/sasen/scripts/examineRun.py'
 
 #### places to go... local
-alias proj='cd /mindhive/gablab/rtfmri/fouse/'
-alias pil='cd /mindhive/gablab/rtfmri/fouse/pilots/'
+alias cdmtbi='cd /mindhive/gablab/rtfmri/mTBI'
+alias cdmint='cd /mindhive/gablab/rtfmri/fouse'
+alias cdgate='cd /mindhive/gablab/GATES/'
+alias cdscr='cd /mindhive/scratch/sasen'
 alias fnii='cd /mindhive/xnat/data/rtfmri/fouse/'
 alias sf='cd /mindhive/scratch/sasen/rtfmri/fouse/'
 #-------------------------

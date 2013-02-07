@@ -23,6 +23,7 @@ alias ipynb='ipython notebook --pylab=inline'
 alias exam='python ~/sasen/scripts/examineRun.py'
 
 #### places to go... local
+alias cddot='cd ~rt/software/dotfiles/texas/rt/'
 alias cdrt='cd ~/software/realtime'
 alias cdmu='cd ~/software/murfi'
 alias cdrts='cd ~/software/realtime/scripts'

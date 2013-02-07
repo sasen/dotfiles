@@ -125,4 +125,4 @@ export RT_SUBJECTSDIR=~/subjects/
 
 export PYTHONPATH=~/sasen/scripts:${SOFTWAREDIR}/util/infoclient:$PYTHONPATH
 export PATH=${SOFTWAREDIR}/util/scanner_sim:${SOFTWAREDIR}/bin:${PATH}
-export PATH=~/sasen/scripts:${PATH}
+export PATH=~/sasen/scripts:~/Desktop/:${PATH}

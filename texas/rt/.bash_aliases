@@ -5,8 +5,8 @@
 alias essh='e /ssh:sasen@ba3:~/scripts/sasenfouse.py'
 #--------------------------
 
-alias eba='emacs -nw ~/.bash_aliases'
-alias sba='source ~/.bash_aliases'
+alias eba='emacs -nw ~/software/dotfiles_ss_git/texas/rt/.bash_aliases'
+alias sba='source ~/software/dotfiles_ss_git/texas/rt/.bash_aliases'
 alias brc='e ~/.bashrc'
 alias sbrc='source ~/.bashrc'
 
@@ -15,6 +15,8 @@ alias e='emacs -nw '
 alias fv='freeview '
 alias ag='sudo apt-get install '
 alias ipynb='ipython notebook --pylab=inline'
+alias g='grin --force-color'
+alias gfile='g -l'
 
 ## redefines
 ##NOPE alias fslhd='less $(fslhd)'
@@ -41,7 +43,7 @@ alias gf='git fetch '
 alias gfa='gf --all'
 alias gpo='git push origin'
 alias gr='git remote -v'
-alias gb='git branch -a'
+alias gb='git branch -av'
 alias gls='git ls-files'
 alias glog='git log'
 alias gd='git diff'

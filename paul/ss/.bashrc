@@ -1,18 +1,7 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
-######## ss@paul.mit.edu
-
-export PYTHONPATH=/home/ss/software/murfi/util/infoclient:$PYTHONPATH
-export PATH=/home/ss/software/murfi/util/scanner_sim:$PATH
-export PATH=/home/ss/software/murfi/bin:$PATH
-
-export SCANNERPORT=15000
-export INFOSERVERPORT=15001
-export ICLOCALPORT=15002
-export ICREMOTEPORT=15003
-export SOFTWAREDIR=/home/ss/software/murfi/
-
+################## rt@texas laptop // sasen@mit.edu
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
@@ -94,7 +83,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -alFrht'
+alias ll='ls -alFrht'  ### sasen changed
 alias la='ls -A'
 alias l='ls -CF'
 alias lss='ls -lrht *'
@@ -119,7 +108,22 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-source /etc/fsl/4.1/fsl.sh
-export FREESURFER_HOME=/local/Freesurfer/5.1.0/
-source /local/Freesurfer/5.1.0/SetUpFreeSurfer.sh 
-export PATH=$PATH:/home/ss/software/murfi/util/scanner_sim/servenii4d
+FSLDIR=/usr/share/fsl/4.1
+. ${FSLDIR}/etc/fslconf/fsl.sh
+PATH=${FSLDIR}/bin:${PATH}
+export FSLDIR PATH
+
+
+export FREESURFER_HOME=/local/Freesurfer/5.1.0
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SCANNERPORT=15000
+export INFOSERVERPORT=15001
+export ICLOCALPORT=15002
+export ICREMOTEPORT=15003
+export SOFTWAREDIR=~/software/murfi/
+export RT_SUBJECTSDIR=~/subjects/
+
+export PYTHONPATH=~/sasen/scripts:${SOFTWAREDIR}/util/infoclient:$PYTHONPATH
+export PATH=~/lib:${SOFTWAREDIR}/util/scanner_sim:${SOFTWAREDIR}/bin:${PATH}
+

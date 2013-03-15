@@ -15,6 +15,8 @@ alias e='emacs -nw '
 alias fv='freeview '
 alias ag='sudo apt-get install '
 alias ipynb='ipython notebook --pylab=inline'
+alias g='grin --force-color'
+alias gfile='g -l'
 
 ## redefines
 ##NOPE alias fslhd='less $(fslhd)'

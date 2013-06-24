@@ -5,3 +5,5 @@
 	editor = emacs -nw
 [credential]
 	helper = osxkeychain
+[push]
+	default = upstream

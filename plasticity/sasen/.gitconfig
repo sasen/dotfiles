@@ -1,0 +1,7 @@
+[user]
+	name = Sasen Cain
+	email = sasen@mit.edu
+[core]
+	editor = emacs -nw
+[credential]
+	helper = osxkeychain

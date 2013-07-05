@@ -62,7 +62,8 @@ unset color_prompt force_color_prompt
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm*|rxvt*)
-    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+#    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\W\a\]$PS1"
     ;;
 *)
     ;;
@@ -106,3 +107,7 @@ fi
 export PYTHONSTARTUP="~/.pythonstartup"
 export PATH=/sw/bin:/usr/local/git/bin/:$PATH
 #export PATH=/usr/local/openjdk7/bin:$PATH
+
+export VISLAB=~/Documents/useful/jobs/visionlab
+export WGIT=$VISLAB/whac
+export WRUN=$VISLAB/MATLAB/Whac-a-mole/

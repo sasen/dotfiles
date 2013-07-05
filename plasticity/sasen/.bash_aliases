@@ -21,6 +21,8 @@ alias tkdiff="/Applications/TkDiff.app/Contents/MacOS/tkdiff"
 
 #### places to go... local
 alias cddot='cd ~/dotfiles/plasticity/sasen/'
+alias cdwjh='cd ~/Documents/useful/jobs/visionlab/'
+alias cdwh='cd ~/Documents/useful/jobs/visionlab/whac'
 #-------------------------
 #### places to go... remote
 #alias ssha='ssh -XY sasen@wm.mit.edu'

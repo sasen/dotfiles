@@ -7,3 +7,5 @@
 	helper = osxkeychain
 [push]
 	default = upstream
+[diff]
+	tool = tkdiff

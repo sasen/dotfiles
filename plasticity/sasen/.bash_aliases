@@ -12,12 +12,18 @@ alias sbrc='source ~/.bashrc'
 
 #### things to do
 alias e='emacs -nw '
+alias tkdiff="/Applications/TkDiff.app/Contents/MacOS/tkdiff"
 alias duh="du -h -d 1"
+
+#### help me see better
+alias ls='ls -GFA'
+alias ll='ls -alrht'
+alias lss='ll *'
+alias grep='grep --color'
+alias fgrep='fgrep --color'
+alias egrep='egrep --color'
 alias g='grin --force-color'
 alias gfile='g -l'
-#----------
-alias tkdiff="/Applications/TkDiff.app/Contents/MacOS/tkdiff"
-##alias ipynb='ipython notebook --pylab=inline'
 
 #### places to go... local
 alias cddot='cd ~/dotfiles/plasticity/sasen/'

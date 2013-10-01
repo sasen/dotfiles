@@ -22,6 +22,7 @@ alias lss='ll *'
 alias grep='grep --color'
 alias fgrep='fgrep --color'
 alias egrep='egrep --color'
+alias gvv='grep -v'
 alias g='grin --force-color'
 alias gfile='g -l'
 

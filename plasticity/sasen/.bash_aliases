@@ -33,7 +33,7 @@ alias cdwh='cd ~/Documents/useful/jobs/visionlab/whac/'
 alias cdwam='cd ~/Dropbox/WAM/'
 alias cdpac='cd ~/Documents/useful/jobs/songlab/'
 alias cdres='cd ~/Documents/useful/resume/cv/recent/'
-alias cdgr='cd ~/Documents/useful/official/school/gradapps/'
+alias cdgr='cd ~/Documents/useful/official/school/gradapps/BCS/'
 #-------------------------
 #### places to go... remote
 #alias ssha='ssh -XY sasen@wm.mit.edu'

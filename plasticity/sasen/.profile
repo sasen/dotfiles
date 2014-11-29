@@ -18,3 +18,11 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
+
+## dealing with python installation
+## http://gestaltrevision.be/pdfs/workshops/python_summer_school_Mac.pdf
+# Set architecture flags
+export ARCHFLAGS="-arch x86_64"
+# need to set locale otherwise get UTF-8 error
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8

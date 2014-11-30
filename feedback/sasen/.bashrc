@@ -89,6 +89,7 @@ export PATH=/Library/Frameworks/GStreamer.framework/Versions/1.0/bin:$PATH
 export PATH=/Library/Frameworks/GStreamer.framework/Versions/0.10/bin:$PATH
 export PATH=/usr/local/bin:$PATH
 export PYTHONPATH=/usr/local/lib/python:$PYTHONPATH
+export MATLAB_JAVA=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
 
 export VISLAB=~/Documents/useful/jobs/visionlab
 export WGIT=$VISLAB/whac

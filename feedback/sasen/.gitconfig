@@ -9,3 +9,5 @@
 	default = upstream
 [diff]
 	tool = tkdiff
+[merge]
+	tool = tkdiff

@@ -30,7 +30,8 @@ alias gfile='g -l'
 alias cddot='cd ~/dotfiles/feedback/sasen/'
 alias cdres='cd ~/Documents/useful/resume/cv/recent/'
 alias cdgr='cd ~/Documents/useful/official/school/gradapps/BCS/'
-alias cdocc='cd ~/Documents/Seafile/Experiments/Occlusion/'
+alias cdfyp='cd ~/Dropbox/ucsd/fyp/expts/equneq/'
+alias cdcl='cd ~/Dropbox/ucsd/classes/'
 #-------------------------
 #### places to go... remote
 #alias ssha='ssh -XY sasen@wm.mit.edu'

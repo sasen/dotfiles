@@ -30,7 +30,8 @@ alias gfile='g -l'
 alias cddot='cd ~/dotfiles/feedback/sasen/'
 alias cdres='cd ~/Documents/useful/resume/cv/recent/'
 alias cdgr='cd ~/Documents/useful/official/school/gradapps/BCS/'
-alias cdfyp='cd ~/Dropbox/ucsd/fyp/expts/equneq/'
+alias cdfyp='cd ~/Dropbox/ucsd/projects/fyp/expts/equneq/'
+alias cdsys='cd ~/Dropbox/ucsd/projects/sysID'
 alias cdcl='cd ~/Dropbox/ucsd/classes/'
 #-------------------------
 #### places to go... remote

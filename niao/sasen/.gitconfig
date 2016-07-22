@@ -1,0 +1,11 @@
+[user]
+	name = Sasen Cain
+	email = sasen@mit.edu
+[core]
+	editor = pico
+[push]
+	default = upstream
+[diff]
+	tool = tkdiff
+[merge]
+	tool = tkdiff
